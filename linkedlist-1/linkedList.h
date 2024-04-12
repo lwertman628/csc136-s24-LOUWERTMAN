@@ -14,13 +14,13 @@ class linkedList
 {
  public:
   linkedList();
-  
+  void insertAtEnd(int);
+  void print() const;
 
  private:
   node *head;
   node *tail;
   int count;
-
 };
 
 
